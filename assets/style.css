@@ -2,7 +2,9 @@
 
 body {
     font-family: 'Mulish', sans-serif;
-    background-color: #DF1F2D;
+    background-image: url(../images/972057.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -24,4 +26,20 @@ h2 {
     width: 30%;
     padding: 10px;
     text-align: center;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    margin-top: -100px;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+#spiderman-point {
+    height: 100px;
+    width: 50%;
 }
