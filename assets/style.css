@@ -17,6 +17,11 @@ h2 {
     color: #fff;
     margin-top: -150px;
 }
-#spiderman-point {
-    background-color: white;
+
+#web {
+    height: 300px;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
 }
