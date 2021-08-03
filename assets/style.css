@@ -1,0 +1,22 @@
+/* Global style */
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #DF1F2D;
+}
+
+h1 {
+    text-align: center;
+    color: #2B3784;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: -150px;
+}
+#spiderman-point {
+    background-color: white;
+}
