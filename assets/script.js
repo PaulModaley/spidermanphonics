@@ -8,3 +8,9 @@ function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("letter").src = myPix[randomNum];
 }
+//audio for a
+var x = document.getElementById("playAudio_A"); 
+
+function playAudioA() { 
+  x.play(); 
+} 
