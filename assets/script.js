@@ -29,3 +29,16 @@ var m = document.getElementById("playAudio_M");
 function playAudioM() { 
   m.play(); 
 } 
+
+//audio for s
+var s = document.getElementById("playAudio_S"); 
+
+function playAudioS() { 
+  s.play(); 
+} 
+//audio for t
+var t = document.getElementById("playAudio_T"); 
+
+function playAudioT() { 
+  t.play(); 
+} 
