@@ -23,12 +23,12 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: -50px;
   }
 
 ul {
     list-style: none;
     text-align: center;
-    margin-top: 10px;
 }
 
 li {
@@ -36,7 +36,14 @@ li {
     padding: 10px;
     text-align: center;
 }
+#wrapper {
+    display: flex;
+  }
 
 #spiderman-point {
-    width: 50%;
+    flex: 0 0 50%;
+    margin-top: 20px;
+}
+#goblin-point {
+    flex: 1;
 }
