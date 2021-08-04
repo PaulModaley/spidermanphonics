@@ -1,0 +1,61 @@
+/* Global style */
+@import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
+html { 
+    background: url(../images/spiderman\ texture\ bg.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+    body {
+        font-family: 'Bangers', cursive;
+        letter-spacing: 2px;
+        overflow: hidden;
+        position: relative;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+.letter-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+.letter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
