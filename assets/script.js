@@ -10,15 +10,22 @@ function choosePic() {
 }
 //audio for a
 
-var x = document.getElementById("playAudio_A"); 
+var a = document.getElementById("playAudio_A"); 
 
 function playAudioA() { 
-  x.play(); 
+  a.play(); 
 } 
 //audio for d
 
-var y = document.getElementById("playAudio_D"); 
+var d = document.getElementById("playAudio_D"); 
 
 function playAudioD() { 
-  y.play(); 
+  d.play(); 
+} 
+
+//audio for m
+var m = document.getElementById("playAudio_M"); 
+
+function playAudioM() { 
+  m.play(); 
 } 
