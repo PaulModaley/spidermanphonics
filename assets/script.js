@@ -9,8 +9,16 @@ function choosePic() {
      document.getElementById("letter").src = myPix[randomNum];
 }
 //audio for a
+
 var x = document.getElementById("playAudio_A"); 
 
 function playAudioA() { 
   x.play(); 
+} 
+//audio for d
+
+var y = document.getElementById("playAudio_D"); 
+
+function playAudioD() { 
+  y.play(); 
 } 
