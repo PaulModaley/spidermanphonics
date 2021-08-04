@@ -1,7 +1,7 @@
 /* Global style */
 @import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
 html { 
-    background: url(../images/spiderman\ background.jpg) no-repeat center center fixed; 
+    background: url(../images/spiderman\ background.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
