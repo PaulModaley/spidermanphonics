@@ -6,25 +6,34 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
   }
-
     body {
         font-family: 'Bangers', cursive;
         letter-spacing: 2px;
         overflow: hidden;
+        position: relative;
 }
 
 h2 {
     text-align: center;
     color: #fff;
 }
-
+.letter-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
 .letter {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-top: -150px;
+    height: 50%;
+    object-fit: contain;
   }
 
 ul {
@@ -37,14 +46,16 @@ li {
     padding: 10px;
     text-align: center;
 }
-#wrapper {
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
     display: flex;
   }
-
-#spiderman-point {
-    flex: 0 0 50%;
-    margin-top: 20px;
-}
-#goblin-point {
-    flex: 1;
-}
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }

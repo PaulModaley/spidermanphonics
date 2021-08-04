@@ -22,11 +22,10 @@
         <div style="margin: auto; text-align: center;">
             <h2 style="font-size: 300%;">Match the letter to the right sound to help Spider-Man to defeat Green Goblin.</h2>
         </div>
-
+        
          <!-- img to show the random letter -->
     
-        <img src="images/a.png" class="letter"></img>
-    
+        <div class="letter-container" style="height:300px; width: 300px;"><img src="images/a.png" class="letter"></img></div>
 
     <!-- Divs to show the sounds -->
     <div style="margin:auto;">  
@@ -39,19 +38,13 @@
         </ul>
      </div>
 
-     <!-- Wrapper for divs-->
-     <div id="wrapper">
-    <!-- Div to to show score for correct answers -->
-
-    <div id ="spiderman-point">
-        <img src="images/spiderman head.png" style="height: 250px; float: right;"></img>
-    </div>
-
-    <!-- Divs to show incorrect answers -->
-
-    <div id ="goblin-point">
-        <img src="images/green goblin head.png" style="height: 250px; float: left;"></img>
-    </div>
+     <div class="row">
+        <div class="column">
+          <img src="/images/spiderman head.png" alt="Spider-Man" style="width:100%; height:100%;">
+        </div>
+        <div class="column">
+          <img src="/images/green goblin head.png" alt="Green Goblin" style="width:100%">
+        </div>
 
     </div>
     
