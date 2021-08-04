@@ -27,7 +27,7 @@ h2 {
     height: 50%;
     object-fit: contain;
 }
-.letter {
+#letter {
     display: block;
     margin-left: auto;
     margin-right: auto;
