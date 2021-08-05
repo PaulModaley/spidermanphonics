@@ -79,7 +79,7 @@ li {
 }
 img {
   height: 7em;
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 
@@ -105,7 +105,9 @@ img {
 }
 .character-names {
   font-size: 100%;
+  
 }
 img {
   height: 5em;
+  margin-top: 0px;
 }
