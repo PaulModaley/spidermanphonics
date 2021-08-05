@@ -31,11 +31,11 @@
     <div class="columns">
     <div style="margin:auto; margin-top: -150px;">  
         <ul>
-            <li style="color: #fff; font-size: 300%" class="zoom"><i class="fas fa-play" onmouseover="playAudioA()"></i></li>
-            <li style="color: yellow; font-size: 300%" class="zoom"><i class="fas fa-play" onmouseover="playAudioD()"></i></li>
-            <li style="color: green; font-size: 300%" class="zoom"><i class="fas fa-play" onmouseover="playAudioM()"></i></li>
-            <li style="color: blue; font-size: 300%" class="zoom"><i class="fas fa-play" onmouseover="playAudioS()"></i></li>
-            <li style="color: pink; font-size: 300%" class="zoom"><i class="fas fa-play" onmouseover="playAudioT()"></i></li>
+            <li style="color: #fff;" class="zoom"><i class="fas fa-play" onmouseover="playAudioA()" ></i></li>
+            <li style="color: yellow;" class="zoom"><i class="fas fa-play" onmouseover="playAudioD()" id="d"></i></li>
+            <li style="color: green;" class="zoom"><i class="fas fa-play" onmouseover="playAudioM()" id="m"></i></li>
+            <li style="color: blue;" class="zoom"><i class="fas fa-play" onmouseover="playAudioS()" id="s"></i></li>
+            <li style="color: pink;" class="zoom"><i class="fas fa-play" onmouseover="playAudioT()" id="t"></i></li>
         </ul>
      </div>
      <!-- audio sources -->
@@ -46,18 +46,18 @@
      <audio id="playAudio_T" source src="audio/letter_t.mp3"></audio>
 
      <!-- Buttons -->
-     <!--<div id="#buttons">
+     <div id="#buttons">
      <ul>
-         <li><button style="background-color: #fff;" id="btn">Select</button></li>
-         <li><button style="background-color: yellow;" id="btn">Select</button></li>
-         <li><button style="background-color: green;" id="btn">Select</button></li>
-         <li><button style="background-color: blue;" id="btn">Select</button></li>
-         <li><button style="background-color: pink;" id="btn">Select</button></li>
+         <li><button style="background-color: #fff;" id="btn" class="a">Select</button></li>
+         <li><button style="background-color: yellow;" id="btn" class="d">Select</button></li>
+         <li><button style="background-color: green;" id="btn" class="m">Select</button></li>
+         <li><button style="background-color: blue;" id="btn" class="s">Select</button></li>
+         <li><button style="background-color: pink;" id="btn" class="t">Select</button></li>
          
      </ul>
     </div>
     </div>
-    -->
+    
 
      <!-- character icons and score counter -->
      <div class="row">

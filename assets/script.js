@@ -43,3 +43,19 @@ function playAudioT() {
   t.play(); 
 } 
 // function for selecting answers
+document.getElementById("a").addEventListener("click", selectedA);
+
+function selectedA () {
+  if (document.getElementById(a) === myPix[0]) {
+    incrementScore();
+  }
+}
+
+/**
+ * Gets the current score from the DOM and increments it by 1
+ */
+ function incrementScore() {
+
+  let oldScore = parseInt(document.getElementById("scores").innerText);
+  document.getElementById("scores").innerText = ++oldScore;
+}
