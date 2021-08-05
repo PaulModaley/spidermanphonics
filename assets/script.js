@@ -42,3 +42,4 @@ var t = document.getElementById("playAudio_T");
 function playAudioT() { 
   t.play(); 
 } 
+// function for selecting answers

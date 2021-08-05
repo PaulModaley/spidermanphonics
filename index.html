@@ -18,7 +18,7 @@
 </head>
 <body>
         <div style="margin: auto; text-align: center;">
-            <h2 style="font-size: 200%;">Match the letter to the right sound to help Spider-Man to defeat Green Goblin.</h2>
+            <h2>Match the letter to the right sound to help Spider-Man to defeat Green Goblin.</h2>
         </div>
        
          <!-- img to show the random letter -->
@@ -28,6 +28,7 @@
         </div>
 
     <!-- Divs to show the sounds -->
+    <div class="columns">
     <div style="margin:auto; margin-top: -150px;">  
         <ul>
             <li style="color: #fff; font-size: 300%" class="zoom"><i class="fas fa-play" onmouseover="playAudioA()"></i></li>
@@ -37,12 +38,28 @@
             <li style="color: pink; font-size: 300%" class="zoom"><i class="fas fa-play" onmouseover="playAudioT()"></i></li>
         </ul>
      </div>
+     <!-- audio sources -->
      <audio id="playAudio_A" source src="audio/letter_a.mp3"></audio>
      <audio id="playAudio_D" source src="audio/letter_d.mp3"></audio>
      <audio id="playAudio_M" source src="audio/letter_m.mp3"></audio>
      <audio id="playAudio_S" source src="audio/letter_s.mp3"></audio>
      <audio id="playAudio_T" source src="audio/letter_t.mp3"></audio>
-     
+
+     <!-- Buttons -->
+     <!--<div id="#buttons">
+     <ul>
+         <li><button style="background-color: #fff;" id="btn">Select</button></li>
+         <li><button style="background-color: yellow;" id="btn">Select</button></li>
+         <li><button style="background-color: green;" id="btn">Select</button></li>
+         <li><button style="background-color: blue;" id="btn">Select</button></li>
+         <li><button style="background-color: pink;" id="btn">Select</button></li>
+         
+     </ul>
+    </div>
+    </div>
+    -->
+
+     <!-- character icons and score counter -->
      <div class="row">
         <div class="column">
             <div style="margin: auto; text-align: center;">
