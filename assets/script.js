@@ -1,37 +1,13 @@
 // Wait for the DOM to finish loading before running the game
 //Display random image of a letter
     window.onload = choosePic;
-    
-    let myPixObj = {
-      1: {
-          "image": "images/a.png",
-          "selection": "a",
-      },
-      2: {
-          "image": "images/d.png",
-          "selection": "d",
-      },
-      3: {
-          "image": "images/m.png",
-          "selection": "m",
-      },
-      4: {
-          "image": "images/s.png",
-          "selection": "s",
-      },
-      5: {
-          "image": "images/t.png",
-          "selection": "t",
-      },
-  };
-  
-  let activeSelection;
-  
-  function choosePic() {
-      let randomNum = Math.floor(Math.random() * myPixObj.length);
-      document.getElementById("letter").src = myPixObj[randomNum]["image"];
-      activeSelection = myPixObj[randomNum]["selection"];
-  }
+
+    var myPix = new Array("images/a.png","images/d.png","images/m.png", "images/s.png", "images/t.png");
+
+    function choosePic() {
+     var randomNum = Math.floor(Math.random() * myPix.length);
+     document.getElementById("letter").src = myPix[randomNum];
+}
 //audio for a
 
 var a = document.getElementById("playAudio_A"); 
