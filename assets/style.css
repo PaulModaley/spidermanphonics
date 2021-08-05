@@ -74,6 +74,12 @@ li {
    padding: 10%;
    margin-right: 5px;
  }
+.character-names {
+  font-size: 200%;
+}
+img {
+  height: 7em;
+}
 
 
  /* MOBILE */
@@ -96,4 +102,9 @@ li {
   padding: 0px;
   margin-right: -7px;
 }
-  
+.character-names {
+  font-size: 100%;
+}
+img {
+  height: 5em;
+}
