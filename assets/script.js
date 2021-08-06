@@ -8,6 +8,13 @@
      var randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("letter").src = myPix[randomNum];
 }
+//audio for Spider-Man Web SFX
+
+var sfx = document.getElementById("playSFX"); 
+
+function playSFX() { 
+  sfx.play(); 
+} 
 //audio for a
 
 var a = document.getElementById("playAudio_A"); 

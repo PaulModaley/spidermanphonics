@@ -24,7 +24,7 @@
          <!-- img to show the random letter -->
     
         <div class="letter-container">
-            <img src="https://img.spacergif.org/v1/spacer.gif" width="1" height="10" id="letter" onclick="choosePic()"></img>
+            <img src="https://img.spacergif.org/v1/spacer.gif" width="1" height="10" id="letter" onclick="choosePic()" onmouseenter="playSFX()"></img>
             <p class="instructions">Click the web for a new letter. Hover over the icons to hear the sound.</p>
         </div>
 
@@ -45,6 +45,7 @@
      <audio id="playAudio_M" source src="audio/letter_m.mp3"></audio>
      <audio id="playAudio_S" source src="audio/letter_s.mp3"></audio>
      <audio id="playAudio_T" source src="audio/letter_t.mp3"></audio>
+     <audio id="playSFX" source src="audio/Spider-ManSFX.mp3"></audio>
 
      <!-- Buttons -->
      <div>
