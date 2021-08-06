@@ -81,7 +81,13 @@ img {
   height: 7em;
   margin-top: -30px;
 }
-
+.instructions {
+  color:white;
+  font-size: small;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
 
  /* MOBILE */
  @media only screen and (max-width: 400px) {
