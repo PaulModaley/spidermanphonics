@@ -49,7 +49,6 @@ var t = document.getElementById("playAudio_T");
 function playAudioT() { 
   t.play(); 
 } 
-// function for selecting answers
 
 
 /**
@@ -57,6 +56,6 @@ function playAudioT() {
  */
  function incrementScore() {
 
-  let oldScore = parseInt(document.getElementById("scores").innerText);
-  document.getElementById("scores").innerText = ++oldScore;
+  let oldScore = parseInt(document.getElementById("score").innerText);
+  document.getElementById("score").innerText = ++oldScore;
 }

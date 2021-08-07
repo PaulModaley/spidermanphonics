@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to my first JavaScript project, Phonics with Spider-Man, an online, educational game intended to support young children starting to read to learn basic phonics (prescribed by the Read Write Inc. phonics scheme).
+Welcome to my first JavaScript project, Phonics with Spider-Man, an online, educational game intended to support young children starting to read to learn basic phonics (prescribed by the Read Write Inc. phonics scheme). It can be used by parents and teachers to engage beginner readers while young children may choose to access the game themselves once an adult has shown them how to do so.
 
 The game, which is essentially a matching game whereby children match graphemes (letters) to phonemes (sounds), was designed around my 4-year old son's interests, namely superheroes and in particular the Spider-Man character. 
 
