@@ -7,13 +7,18 @@ html {
     -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden;
+    
   }
     body {
         font-family: 'Bangers', cursive;
         letter-spacing: 2px;
         overflow: hidden;
         position: relative;
-}
+        background: rgba(0, 0, 0, 0.45); 
+        height: 100vh;
+        width: 100vw;
+        }
+
 
 h2 {
     text-align: center;
@@ -86,7 +91,7 @@ li {
 }
 img {
   height: 6em;
-  margin-top: -65px;
+  margin-top: -75px;
 }
 .instructions {
   color:white;
