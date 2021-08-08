@@ -76,11 +76,11 @@ function whoHasWon() {
     let spiderScore = parseInt(document.getElementById("spiderman-score").innerText);
     let goblinScore = parseInt(document.getElementById("green-goblin-score").innerText);
     if (spiderScore >= maxScore) {
-        alert("Spiderman has won");
+        document.getElementById("spiderman-score").innerText = "Spider-Man Wins!";
         window.location.reload();
     }
     if (goblinScore >= maxScore) {
-        alert("Green goblin has won");
+        document.getElementById("green-goblin-score").innerText = "Green Gobin Wins!";
         window.location.reload();
     }
 }
