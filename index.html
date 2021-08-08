@@ -12,7 +12,7 @@
 
     <!-- Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/5251ebbd60.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     
     <title>Phonics With Spider-Man</title>
 </head>
@@ -40,55 +40,57 @@
         </ul>
      </div>
      <!-- audio sources -->
-     <audio id="playAudio_A" source src="audio/letter_a.mp3"></audio>
-     <audio id="playAudio_D" source src="audio/letter_d.mp3"></audio>
-     <audio id="playAudio_M" source src="audio/letter_m.mp3"></audio>
-     <audio id="playAudio_S" source src="audio/letter_s.mp3"></audio>
-     <audio id="playAudio_T" source src="audio/letter_t.mp3"></audio>
-     <audio id="playSFX" source src="audio/Spider-ManSFX.mp3"></audio>
+     <audio id="playAudio_A" source src="./assets/audio/letter_a.mp3"></audio>
+     <audio id="playAudio_D" source src="./assets/audio/letter_d.mp3"></audio>
+     <audio id="playAudio_M" source src="./assets/audio/letter_m.mp3"></audio>
+     <audio id="playAudio_S" source src="./assets/audio/letter_s.mp3"></audio>
+     <audio id="playAudio_T" source src="./assets/audio/letter_t.mp3"></audio>
+     <audio id="playSFX" source src="./assets/audio/Spider-ManSFX.mp3"></audio>
 
      <!-- Buttons -->
      <div>
         <p class="instructions">Press select to choose the sound to match the letter.</p>
     </div>
-     <div id="#buttons">
-     <ul style="margin-top: -30px;">
-         <li><button style="background-color: #fff;" id="btn" class="a"  onclick="playSFX()">Select</button></li>
-         <li><button style="background-color: yellow;" id="btn" class="d"  onclick="playSFX()"">Select</button></li>
-         <li><button style="background-color: green;" id="btn" class="m" onclick="playSFX()">Select</button></li>
-         <li><button style="background-color: blue;" id="btn" class="s" onclick="playSFX()">Select</button></li>
-         <li><button style="background-color: pink;" id="btn" class="t" onclick="playSFX()">Select</button></li>
-     </ul>
+        <div id="#buttons">
+            <ul style="margin-top: -30px;">
+                <li><button style="background-color: #fff;" class="a btn" onclick="captureAnswer('a');">Select</button></li>
+                <li><button style="background-color: yellow;" class="d btn" onclick="captureAnswer('b');">Select</button></li>
+                <li><button style="background-color: green;" class="m btn" onclick="captureAnswer('m');">Select</button></li>
+                <li><button style="background-color: blue;" class="s btn" onclick="captureAnswer('s');">Select</button></li>
+                <li><button style="background-color: pink;" class="t btn" onclick="captureAnswer('t');">Select</button></li>
+            </ul>
+        </div>
     </div>
-    </div>
-  
-    
 
-     <!-- character icons and score counter -->
-     <div class="row">
+    <!-- character icons and score counter -->
+    <br>
+    <br>
+    <br>
+    <div class="row">
         <div class="column">
             <div style="margin: auto; text-align: center;">
-                <img src="/images/spiderman.png"></img>
+                <img src="./assets/images/spiderman.png"></img>
                 <h2 class="character-names">Spiderman</h2>
             </div>
-          
-          <div class="score-area">
-            <p class="scores" style="color: #fff; text-align: center; font-size: x-large;"> <span id="score">0</span></p>
-            >
-        </div>
+            <div class="score-area">
+                <p class="scores" style="color: #fff; text-align: center; font-size: x-large;">
+                    <span id="spiderman-score">0</span>
+                </p>
+            </div>
         </div>
         <div class="column">
             <div style="margin: auto; text-align: center;">
-                <img src="images/green goblin.png"></img>
+                <img src="./assets/images/green goblin.png"></img>
                 <h2 style="color: lime;" class="character-names">Green Goblin</h2>
             </div>
-          <div class="score-area">
-            <p class="scores" style="color: lime; text-align: center; font-size: x-large;"><span id="incorrect">0</span></p>
+            <div class="score-area">
+                <p class="scores" style="color: lime; text-align: center; font-size: x-large;">
+                    <span id="green-goblin-score">0</span>
+                </p>
+            </div>
         </div>
-        </div>
-
     </div>
     
-    <script src="assets/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

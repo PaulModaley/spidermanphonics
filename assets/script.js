@@ -1,61 +1,111 @@
+/*
+This is my application and it does XYZ
+Author Paul
+Date: Today
+*/
+
 // Wait for the DOM to finish loading before running the game
 //Display random image of a letter
-    window.onload = choosePic;
+window.onload = choosePic;
 
-    var myPix = new Array("images/a.png","images/d.png","images/m.png", "images/s.png", "images/t.png");
+let myPix = new Array(
+    "./assets/images/a.png",
+    "./assets/images/d.png",
+    "./assets/images/m.png",
+    "./assets/images/s.png",
+    "./assets/images/t.png"
+);
 
-    function choosePic() {
-     var randomNum = Math.floor(Math.random() * myPix.length);
-     document.getElementById("letter").src = myPix[randomNum];
+function choosePic() {
+    let randomNum = Math.floor(Math.random() * myPix.length);
+    document.getElementById("letter").src = myPix[randomNum];
 }
+
 //audio for Spider-Man Web SFX
-
-var sfx = document.getElementById("playSFX"); 
-
+let sfx = document.getElementById("playSFX"); 
 function playSFX() { 
-  sfx.play(); 
+    sfx.play(); 
 } 
+
 //audio for a
-
-var a = document.getElementById("playAudio_A"); 
-
+let a = document.getElementById("playAudio_A"); 
 function playAudioA() { 
-  a.play(); 
+    a.play(); 
 } 
+
 //audio for d
-
-var d = document.getElementById("playAudio_D"); 
-
+let d = document.getElementById("playAudio_D"); 
 function playAudioD() { 
-  d.play(); 
+    d.play(); 
 } 
 
 //audio for m
-var m = document.getElementById("playAudio_M"); 
-
+let m = document.getElementById("playAudio_M"); 
 function playAudioM() { 
-  m.play(); 
+    m.play(); 
 } 
 
 //audio for s
-var s = document.getElementById("playAudio_S"); 
-
+let s = document.getElementById("playAudio_S"); 
 function playAudioS() { 
-  s.play(); 
+    s.play(); 
 } 
+
 //audio for t
-var t = document.getElementById("playAudio_T"); 
-
+let t = document.getElementById("playAudio_T"); 
 function playAudioT() { 
-  t.play(); 
+    t.play(); 
 } 
 
 
-/**
- * Gets the current score from the DOM and increments it by 1
- */
- function incrementScore() {
 
-  let oldScore = parseInt(document.getElementById("score").innerText);
-  document.getElementById("score").innerText = ++oldScore;
+// Gets the current score from the DOM and increments it by 1
+function incrementSpidermanScore() {
+    let oldScore = parseInt(document.getElementById("spiderman-score").innerText);
+    document.getElementById("spiderman-score").innerText = oldScore + 1;
+}
+
+function incrementGreenGoblinScore() {
+    let oldScore = parseInt(document.getElementById("green-goblin-score").innerText);
+    document.getElementById("green-goblin-score").innerText = oldScore + 1;
+}
+
+
+function whoHasWon() {
+    let maxScore = 10;
+    let spiderScore = parseInt(document.getElementById("spiderman-score").innerText);
+    let goblinScore = parseInt(document.getElementById("green-goblin-score").innerText);
+    if (spiderScore >= maxScore) {
+        alert("Spiderman has won");
+        window.location.reload();
+    }
+    if (goblinScore >= maxScore) {
+        alert("Green goblin has won");
+        window.location.reload();
+    }
+}
+
+// Main capture function
+function captureAnswer(letter) {
+    playSFX();
+    
+    // Get current letter to validate against
+    let imgSrc = (document.getElementById("letter").src).toString();
+    imgSrc = imgSrc.slice(-5, imgSrc.length);
+    let validateLetter = imgSrc.slice(0, 1);
+    
+    // Letter validation
+    if (letter == validateLetter) {
+        // alert("Spidy increase");
+        incrementSpidermanScore();
+    } else {
+        // alert("Goblin increase");
+        incrementGreenGoblinScore();
+    }
+
+    // Game win-lose calculation
+    whoHasWon();
+
+    // Generate new letter
+    choosePic();
 }
