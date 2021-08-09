@@ -2,25 +2,24 @@
 
 body {
     background-color: white;
-    overflow: hidden;
     font-family: 'Bangers', cursive;
-    letter-spacing: 2px;
     background-color: rgba(223, 31, 45, 0.9);
 }
 #gif {
-    background-image: url(/assets/images/spidermanlargegif.gif);
-    background-repeat: no-repeat; 
-    background-size: contain;
-    height: 45vh;
-    width: 100vw;
-    background-position: center top;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-image: url(../images/spidermanlargegif.gif);
+    height: 30em;
+    background-repeat: no-repeat;
 }
 .heading {
-    position: relative;
+    width: 100%;
+    margin: auto;
 }
 h2 {
-    text-align: center;
     color: white;
     letter-spacing: 3px;
     font-size: 160%; 
+    text-align: center;
 }
