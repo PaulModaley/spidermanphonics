@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
+html { 
+    background: url(../images/Spiderman-White-Background.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+body {
+    font-family: 'Bangers', cursive;
+    overflow: hidden;
+}
+
+/*Form styling*/
+
+#form {
+	background: rgba(1, 0, 0, 0.7);
+	margin: 0 auto;
+	width: 54vw;
+	height: auto;
+	padding-left: 20px;
+    letter-spacing: 3px;
+	
+}
+
+input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+label {
+	margin-top: 5px;
+	display: inline-block;
+	width: 100px;
+	padding-top: 12px;
+	color: white;
+	font-size: 100%;
+	margin-right: 10px;
+}
+
+input[type=text] {
+	color: #2c2c2c;
+	font-weight: lighter;
+	display: inline-block;
+	margin-left: 20px;
+	width: 40vw;
+}
+
+input[type=submit] {
+	background-color: red;
+	color: white;
+	padding: 20px;
+	font-size: large;
+}
+
+#submitbtn {
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 20px;
+	justify-content: center;
+	display: flex;
+    transition: transform .2s;
+}
+#submitbtn:hover {
+    transform: scale(1.1);
+}
+#feedback {
+    height: 40px;
+}
