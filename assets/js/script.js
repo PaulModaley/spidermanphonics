@@ -77,11 +77,11 @@ function whoHasWon() {
     let goblinScore = parseInt(document.getElementById("green-goblin-score").innerText);
     if (spiderScore >= maxScore) {
         document.getElementById("spiderman-score").innerText = "Spider-Man Wins!";
-        window.location.reload();
+        setTimeout(() => window.location.reload(), 3000);
     }
     if (goblinScore >= maxScore) {
         document.getElementById("green-goblin-score").innerText = "Green Gobin Wins!";
-        window.location.reload();
+        setTimeout(() => window.location.reload(), 3000);
     }
 }
 
