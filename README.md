@@ -1,4 +1,4 @@
-n# Phonics with Spider-Man
+# Phonics with Spider-Man
 
 ## Introduction
 
