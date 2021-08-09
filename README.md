@@ -51,7 +51,7 @@ This game was created to...
 <a name="goals"></a>
 #### Project Goals
 
-The goal of the game is to...
+The goal of the game is to correctly match phonemes with graphemes. A point is awarded to Spider-Man for every correct answer while a point is awarded to Green Goblin for incorrect player answers. Once either the computer (Green Goblin) or Spider-Man (human player) reach 10 points a winner is declared and the game restarts.
 
 #### User Goals:
 
@@ -245,11 +245,8 @@ The site may be viewed via this link:
 ## 9. Credits
 <a name="credits"></a>
 #### Code
-- The angled div came from [Suman Biswas at Codepen](https://codepen.io/biswassuman/pen/NWGqKwd)
-- The transparent text box over the hero image in mobile view came from [Rob Doyle Creative](https://robdoylecreative.com/how-to-add-a-transparent-text-box-over-an-image-using-css/)
-- The bar graph in the 'Get Chosen' section came from [W3 Schools](https://www.w3schools.com/howto/howto_css_skill_bar.asp)
-- The responsive navigation bar came from [W3 Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
-- The responsive iframes came from [W3 Schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+- The JavaScript code to display a random image from an array came from https://www.peachpit.com/articles/article.aspx?p=2239154&seqNum=10
+- The JavaScript code to set a delay came from [Stack Overflow] https://stackoverflow.com/questions/24400845/refreshing-a-page-after-certain-delay-in-jquery
 - The Demo button animation came from [W3 Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
 - Fonts came from [Google Fonts](https://fonts.google.com/)
 - Icons in the footer came from [Font Awesome](https://fontawesome.com/)
@@ -261,6 +258,6 @@ The site may be viewed via this link:
 - Branding and colour scheme came from Marvel Comics.
 - Audio clip of 'web shoot' sound came from Sam Birkinshaw via https://www.youtube.com/watch?v=hlLUa1-1SUk
 - I recorded the phoneme sounds.
-- The background image came from Adobe Stock.
+- Background images came from [WallPaper Access] https://wallpaperaccess.com/spider-man
 
 [Back to top](#table-of-contents)
