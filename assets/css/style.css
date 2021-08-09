@@ -1,7 +1,7 @@
 /* Global style */
 @import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
 html { 
-    background: url(../images/spiderman\ texture\ bg.jpg) no-repeat fixed; 
+    background: url(../images/spidermanvsgreengoblin.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -117,7 +117,8 @@ img {
   display: inline-block;
   padding: 8px;
   text-align: center;
-  font-size: 200%;
+  font-size: 170%;
+  margin-top: 20px;
 }
 #buttons {
   margin: 0;
@@ -129,10 +130,28 @@ img {
   margin-right: -7px;
 }
 .character-names {
-  font-size: 100%;
+  font-size: 90%;
   
 }
 img {
-  height: 5em;
-  margin-top: 0px;
+  height: 4em;
+  margin-top: -37px;
+}
+nav {
+  margin-top: 1px;
+}
+a, a:hover, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+  padding: 2px;
+ }
+ .letter-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  object-fit: contain;
+  height: 270px; 
+  width: 300px;
+}
 }

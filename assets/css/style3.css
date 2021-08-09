@@ -54,14 +54,14 @@ input[type=text] {
 input[type=submit] {
 	background-color: red;
 	color: white;
-	padding: 20px;
+	padding: 10px;
 	font-size: large;
 }
 
 #submitbtn {
-	margin: 0 auto;
+	margin: auto;
 	width: 50%;
-	padding-top: 20px;
+	padding-top: 5px;
 	justify-content: center;
 	display: flex;
     transition: transform .2s;
