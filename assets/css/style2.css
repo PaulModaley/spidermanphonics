@@ -1,5 +1,35 @@
 @import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
+html { 
+    background: url(../images/spidermanbg.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden; 
+  }
 
 body {
     font-family: 'Bangers', cursive;
+    overflow: hidden;
 }
+#heading {
+    margin: auto;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+#instructions {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+#text-bg {
+    background: rgba(1, 0, 0, 0.6);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
