@@ -1,25 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
 
 body {
-    background-color: white;
     font-family: 'Bangers', cursive;
-    background-color: rgba(223, 31, 45, 0.9);
-}
-#gif {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    background-image: url(../images/spidermanlargegif.gif);
-    height: 30em;
-    background-repeat: no-repeat;
-}
-.heading {
-    width: 100%;
-    margin: auto;
-}
-h2 {
-    color: white;
-    letter-spacing: 3px;
-    font-size: 160%; 
-    text-align: center;
 }
