@@ -6,6 +6,8 @@ html {
     -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden; 
+    background-position: center center;
+    background-attachment: fixed;
   }
 
 body {
@@ -32,4 +34,33 @@ body {
     margin: auto;
     padding: 10px;
 }
-
+button {
+    background-color: transparent;
+    color: red;
+    padding: 8px;
+    border-color: white;
+    border-width: 2px;
+    transition: transform .2s;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: red;
+}
+a, a:hover, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    font-size: x-large;
+    font-weight: bold;
+   }
+#btn {
+    margin:auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+    
+}
