@@ -63,3 +63,33 @@ a, a:hover, a:visited, a:active {
     align-items: center;
     padding-bottom: 3px;
 }
+/* MOBILE */
+@media only screen and (max-width: 400px) {
+    
+#heading {
+    margin: auto;
+    font-size: 110%;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+#instructions {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+}
+/* MOBILE */
+@media only screen and (max-width: 420px) {
+#btn2 {
+    background-color: transparent;
+    color: red;
+    padding: 5px;
+    border-color: white;
+    border-width: 2px;
+    transition: transform .2s;
+    font-size: 80%;
+    }
+}
