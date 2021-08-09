@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+    overflow: hidden;
+}
+#gif {
+    background-image: url("/assets/images/spidermangif.gif");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    height: 90vh;
+    background-position: right;
+    margin: 0;
+}
