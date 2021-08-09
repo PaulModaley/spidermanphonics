@@ -58,7 +58,6 @@ function playAudioT() {
 } 
 
 
-
 // Gets the current score from the DOM and increments it by 1
 function incrementSpidermanScore() {
     let oldScore = parseInt(document.getElementById("spiderman-score").innerText);
