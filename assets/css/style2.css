@@ -1,12 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
+
 body {
-    background-color: red;
+    background-color: white;
     overflow: hidden;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    background-color: rgba(223, 31, 45, 0.9);
 }
 #gif {
-    background-image: url("/assets/images/spidermangif.gif");
+    background-image: url(/assets/images/spidermanlargegif.gif);
     background-repeat: no-repeat; 
     background-size: contain;
-    height: 90vh;
-    background-position: right;
-    margin: 0;
+    height: 45vh;
+    width: 100vw;
+    background-position: center top;
+}
+.heading {
+    position: relative;
+}
+h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 160%; 
 }
