@@ -42,7 +42,7 @@ A live version of the website can be found [here ](https://paulmodaley.github.io
 
 [Back to top](#table-of-contents)
 
-This game was created to...
+This game was created to enhance children's experience of learning to read in the Early Years of school.
 
 <a name="strategy"></a>
 ### 1.1 Strategy
@@ -161,9 +161,7 @@ To ensure mobile responsivity, I made extensive use of Google Developer Tool's '
 
 **W3C Validator Tools**
 
-
-
-
+The validator indicated that there are no errors within my HTML and CSS.
 
 
 #### **Testing Process**
@@ -173,9 +171,7 @@ Generally, I followed a process of (1) writing the code for a specific feature, 
 The game was tested thoroughly for mobile and web responsivity.
 
   - On smaller screens, game icons shrink to fit the screen size.
-  - The navigation bar directs users to the beginning of the distinct sections.
-  - The navigation bar is 'sticky' meaning that it it stays visible at the top of the screen even as the user scrolls. This is to enable easy navigation of the page.
-  - Users may return to the top of the page via a link reading 'back to top'. This features makes it easy for the user to navigate the page by eliminating the need for scrolling.
+  - Users may return to the welcome page via a link reading 'back'. This features makes it easy for the user to navigate to pages.
   - The navigation works as expected on both mobile and web.
 - **Page sections - Expectation: Pass**
   - Each section of the page features consistent fonts, font sizes and colour schemes that are not only consistent with the company's branding, but also enable easy-reading of the text.
@@ -204,16 +200,15 @@ However, there were a few changes made during the development cycle which were n
 
 #### Form
 
-- A form was added to replace the 'Get a Demo Button'
-- The form presents one major advantage over the 'Get a Demo' button - it reduces the number of clicks needed before the user can access the form and avoids the need for opening new tabs.
+- A form was added to a page as a means of capturing user feedback.
 
 #### Navigation
 
-- Following discussion with my mentor, I implemented a sticky navigation to enhance the user experience.
+- Following discussion with my mentor, I implemented a welcome page and feedback form page.
 
-#### Shadows
+#### Animations
 
-- To enhance the visual appearance, I added a box shadow effect at the bar graphs and boxes including the form.
+- To enhance the visual appearance, I added hover animations to buttons and icons.
 <a name="deployment"></a>
 ## 6. Deployment
 
