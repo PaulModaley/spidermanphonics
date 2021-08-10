@@ -222,7 +222,7 @@ I deployed my project through GitHub. The process was as follows:
 
 [Back to top](#table-of-contents)
 
-The site may be viewed via this link:
+The site may be viewed via this link: https://paulmodaley.github.io/spidermanphonics/
 
 ## 8. Known Bugs
 <a name="knownbugs"></a>
