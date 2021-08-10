@@ -72,3 +72,15 @@ input[type=submit] {
 #feedback {
     height: 40px;
 }
+nav {
+	margin-top: 4px;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+	color: red;
+	text-decoration: none;
+	padding: 6px;
+}
