@@ -6,7 +6,7 @@ Welcome to my first JavaScript project, Phonics with Spider-Man, an online, educ
 
 The game, which is essentially a matching game whereby children match graphemes (letters) to phonemes (sounds), was designed around my 4-year old son's interests, namely superheroes and in particular the Spider-Man character. 
 
-A live version of the website can be found here 
+A live version of the website can be found [here ](https://paulmodaley.github.io/spidermanphonics/).
 
 # Table of Contents <a name="table-of-contents"></a>
 
