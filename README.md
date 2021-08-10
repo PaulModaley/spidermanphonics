@@ -173,22 +173,15 @@ The game was tested thoroughly for mobile and web responsivity.
   - On smaller screens, game icons shrink to fit the screen size.
   - Users may return to the welcome page via a link reading 'back'. This features makes it easy for the user to navigate to pages.
   - The navigation works as expected on both mobile and web.
-- **Page sections - Expectation: Pass**
-  - Each section of the page features consistent fonts, font sizes and colour schemes that are not only consistent with the company's branding, but also enable easy-reading of the text.
-  - Different types of content, including videos and bar graphs, are featured in different sections to add variety of content throughout the page and also to reinforce the messaging conveyed by the page.
-  - A range of background colours have been used to demarcate each section.
+- **Pages - Expectation: Pass**
+  - Each section of the page features consistent fonts, font sizes and colour schemes that are generally consistent with the Spider-Man brand and the'comic book' look and feel intended for the game,
   - All sections display as expected on mobile and web.
-- **Media - Expectation: Pass**
-  - YouTube videos have been embedded within two of the sections.
-  - CSS makes these videos responsive on different screen sizes.
+- **Game - Expectation: Pass**
+  - The game functions as intended.
+  - Audio is used as a key part of the game and also to enhance the user experience.
   - All media functions correctly on mobile and web.
-- **Footer - Expectation: Pass**
-  - The social icons in the footer open in a new tab when clicked.
-  - They display well on both mobile and web.
-  - The footer sections functions correctly on mobile and web.
-- **Button - Expectation: Pass**
-  - The button opens a form in a new tab when clicked.
-  - It functions correctly on mobile and web.
+- **Form - Expectation: Pass**
+  - The form functions correctly on mobile and web.
 <a name="development"></a>
 ## 5. Development Cycle
 
