@@ -1,95 +1,110 @@
 @import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
-html { 
-    background: url(../images/spidermanbg.jpg) no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow-x: hidden; 
-    background-position: center center;
-    background-attachment: fixed;
-  }
+html {
+	background: url(../images/spidermanbg.jpg) no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
+	background-position: center center;
+	background-attachment: fixed;
+}
 
 body {
-    font-family: 'Bangers', cursive;
-    overflow: hidden;
+	font-family: 'Bangers', cursive;
+	overflow: hidden;
 }
+
 #heading {
-    margin: auto;
-    font-size: 150%;
-    text-align: center;
-    color: white;
-    letter-spacing: 3px;
+	margin: auto;
+	font-size: 150%;
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
 }
+
 #instructions {
-    margin: auto;
-    text-align: center;
-    color: white;
-    font-size: 120%;
-    letter-spacing: 3px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 120%;
+	letter-spacing: 3px;
 }
+
 #text-bg {
-    background: rgba(1, 0, 0, 0.6);
-    width: fit-content;
-    margin: auto;
-    padding: 10px;
+	background: rgba(1, 0, 0, 0.6);
+	width: fit-content;
+	margin: auto;
+	padding: 10px;
 }
+
 button {
-    background-color: transparent;
-    color: red;
-    padding: 8px;
-    border-color: white;
-    border-width: 2px;
-    transition: transform .2s;
+	background-color: transparent;
+	color: red;
+	padding: 8px;
+	border-color: white;
+	border-width: 2px;
+	transition: transform .2s;
 }
+
 button:hover {
-    transform: scale(1.1);
-    background-color: red;
+	transform: scale(1.1);
+	background-color: red;
 }
-a, a:hover, a:visited, a:active {
-    color: white;
-    text-decoration: none;
-    padding: 6px;
-    font-size: x-large;
-    font-weight: bold;
-   }
+
+a,
+a:hover,
+a:visited,
+a:active {
+	color: white;
+	text-decoration: none;
+	padding: 6px;
+	font-size: x-large;
+	font-weight: bold;
+}
+
 #btn {
-    margin:auto;
-    width: 50%;
-    text-align: center;
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 3px;
 }
+
+
 /* MOBILE */
+
 @media only screen and (max-width: 400px) {
-    
-#heading {
-    margin: auto;
-    font-size: 110%;
-    text-align: center;
-    color: white;
-    letter-spacing: 3px;
+	#heading {
+		margin: auto;
+		font-size: 110%;
+		text-align: center;
+		color: white;
+		letter-spacing: 3px;
+	}
+	#instructions {
+		margin: auto;
+		text-align: center;
+		color: white;
+		font-size: 90%;
+		letter-spacing: 3px;
+	}
 }
-#instructions {
-    margin: auto;
-    text-align: center;
-    color: white;
-    font-size: 90%;
-    letter-spacing: 3px;
-}
-}
+
+
 /* MOBILE */
+
 @media only screen and (max-width: 420px) {
-#btn2 {
-    background-color: transparent;
-    color: red;
-    padding: 5px;
-    border-color: white;
-    border-width: 2px;
-    transition: transform .2s;
-    font-size: 80%;
-    }
+	#btn2 {
+		background-color: transparent;
+		color: red;
+		padding: 5px;
+		border-color: white;
+		border-width: 2px;
+		transition: transform .2s;
+		font-size: 80%;
+	}
 }
