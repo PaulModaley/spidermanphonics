@@ -86,7 +86,7 @@ I generated designs for the website using wireframes in Balsamiq.
 <a name="wireframes"></a>
 **Wire Frames**
 
-![](https://share.balsamiq.com/c/sibaUJp6DERMeyUCwRAKru.png)
+![](https://share.balsamiq.com/c/unJWiPc6rzHdaskT2zWtXn.png)
 <a name="surface"></a>
 #### Surface
 
