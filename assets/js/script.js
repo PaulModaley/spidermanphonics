@@ -1,7 +1,7 @@
 /*
-This is my application and it does XYZ
-Author Paul
-Date: Today
+Phonics With Spider-Man is a game that makes learning phonics in the Early Years fun.
+Author: Paul Modaley
+Date: August 2021
 */
 
 // Wait for the DOM to finish loading before running the game
