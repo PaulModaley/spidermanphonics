@@ -14,14 +14,15 @@
       <title>Play Phonics With Spider-Man</title>
       <link rel="shortcut icon" type="image/jpg" href="assets/images/Cinema-Spiderman-New-icon.png"/>
    </head>
-   <nav><a href="home.html">Back</a></nav>
+   
    <body>
+    <nav><a href="home.html">Back</a></nav>
       <div style="margin: auto; text-align: center;">
          <h2>Match the letter to the right sound to help Spider-Man to defeat Green Goblin.</h2>
       </div>
       <!-- img to show the random letter -->
       <div class="letter-container">
-         <img src="https://img.spacergif.org/v1/spacer.gif" width="1" height="10" id="letter" onclick="choosePic()"></img>
+         <img src="https://img.spacergif.org/v1/spacer.gif" alt="letter" width="1" height="10" id="letter" onclick="choosePic()">
          <p class="instructions">Click the web for a new letter. Hover over the icons to hear the sound.</p>
       </div>
       <!-- Divs to show the sounds -->
@@ -36,12 +37,12 @@
             </ul>
          </div>
          <!-- audio sources -->
-         <audio id="playAudio_A" source src="./assets/audio/letter_a.mp3"></audio>
-         <audio id="playAudio_D" source src="./assets/audio/letter_d.mp3"></audio>
-         <audio id="playAudio_M" source src="./assets/audio/letter_m.mp3"></audio>
-         <audio id="playAudio_S" source src="./assets/audio/letter_s.mp3"></audio>
-         <audio id="playAudio_T" source src="./assets/audio/letter_t.mp3"></audio>
-         <audio id="playSFX" source src="./assets/audio/Spider-ManSFX.mp3"></audio>
+         <audio id="playAudio_A" src="./assets/audio/letter_a.mp3"></audio>
+         <audio id="playAudio_D" src="./assets/audio/letter_d.mp3"></audio>
+         <audio id="playAudio_M" src="./assets/audio/letter_m.mp3"></audio>
+         <audio id="playAudio_S" src="./assets/audio/letter_s.mp3"></audio>
+         <audio id="playAudio_T" src="./assets/audio/letter_t.mp3"></audio>
+         <audio id="playSFX"     src="./assets/audio/Spider-ManSFX.mp3"></audio>
          <!-- Buttons -->
          <div>
             <p class="instructions">Press select to choose the sound to match the letter.</p>
@@ -63,7 +64,7 @@
       <div class="row">
          <div class="column">
             <div style="margin: auto; text-align: center;">
-               <img src="./assets/images/spiderman.png"></img>
+               <img src="./assets/images/spiderman.png" alt="Spiderman">
                <h2 class="character-names">Spiderman</h2>
             </div>
             <div class="score-area">
@@ -77,7 +78,7 @@
          </div>
          <div class="column">
             <div style="margin: auto; text-align: center;">
-               <img src="./assets/images/green goblin.png"></img>
+               <img src="./assets/images/greengoblin.png" alt="Green Goblin">
                <h2 style="color: lime;" class="character-names">Green Goblin</h2>
             </div>
             <div class="score-area">
