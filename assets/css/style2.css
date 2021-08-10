@@ -52,10 +52,10 @@ button:hover {
 	background-color: red;
 }
 
-a,
-a:hover,
-a:visited,
-a:active {
+button,
+button:hover,
+button:visited,
+button:active {
 	color: white;
 	text-decoration: none;
 	padding: 6px;
