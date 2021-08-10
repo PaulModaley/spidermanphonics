@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+      <!-- Font Awesome Kit-->
+      <script src="https://kit.fontawesome.com/5251ebbd60.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <title>Play Phonics With Spider-Man</title>
+      <link rel="shortcut icon" type="image/jpg" href="assets/images/Cinema-Spiderman-New-icon.png"/>
+   </head>
+   
+   <body>
+    <nav><a href="index.html">Back</a></nav>
+      <div style="margin: auto; text-align: center;">
+         <h2>Match the letter to the right sound to help Spider-Man to defeat Green Goblin.</h2>
+      </div>
+      <!-- img to show the random letter -->
+      <div class="letter-container">
+         <img src="https://img.spacergif.org/v1/spacer.gif" alt="letter" width="1" height="10" id="letter" onclick="choosePic()">
+         <p class="instructions">Click the web for a new letter. Hover over the icons to hear the sound.</p>
+      </div>
+      <!-- Divs to show the sounds -->
+      <div class="columns">
+         <div style="margin:auto; margin-top: -155px;">
+            <ul>
+               <li style="color: #fff;" class="zoom"><i class="fas fa-play" onmouseover="playAudioA()" ></i></li>
+               <li style="color: yellow;" class="zoom"><i class="fas fa-play" onmouseover="playAudioD()" id="d"></i></li>
+               <li style="color: green;" class="zoom"><i class="fas fa-play" onmouseover="playAudioM()" id="m"></i></li>
+               <li style="color: blue;" class="zoom"><i class="fas fa-play" onmouseover="playAudioS()" id="s"></i></li>
+               <li style="color: pink;" class="zoom"><i class="fas fa-play" onmouseover="playAudioT()" id="t"></i></li>
+            </ul>
+         </div>
+         <!-- audio sources -->
+         <audio id="playAudio_A" src="./assets/audio/letter_a.mp3"></audio>
+         <audio id="playAudio_D" src="./assets/audio/letter_d.mp3"></audio>
+         <audio id="playAudio_M" src="./assets/audio/letter_m.mp3"></audio>
+         <audio id="playAudio_S" src="./assets/audio/letter_s.mp3"></audio>
+         <audio id="playAudio_T" src="./assets/audio/letter_t.mp3"></audio>
+         <audio id="playSFX"     src="./assets/audio/Spider-ManSFX.mp3"></audio>
+         <!-- Buttons -->
+         <div>
+            <p class="instructions">Press select to choose the sound to match the letter.</p>
+         </div>
+         <div id="#buttons">
+            <ul style="margin-top: -90px;">
+               <li><button style="background-color: #fff;" class="a btn" onclick="captureAnswer('a');">Select</button></li>
+               <li><button style="background-color: yellow;" class="d btn" onclick="captureAnswer('d');">Select</button></li>
+               <li><button style="background-color: green;" class="m btn" onclick="captureAnswer('m');">Select</button></li>
+               <li><button style="background-color: blue;" class="s btn" onclick="captureAnswer('s');">Select</button></li>
+               <li><button style="background-color: pink;" class="t btn" onclick="captureAnswer('t');">Select</button></li>
+            </ul>
+         </div>
+      </div>
+      <!-- character icons and score counter -->
+      <br>
+      <br>
+      <br>
+      <div class="row">
+         <div class="column">
+            <div style="margin: auto; text-align: center;">
+               <img src="./assets/images/spiderman.png" alt="Spiderman">
+               <h2 class="character-names">Spiderman</h2>
+            </div>
+            <div class="score-area">
+               <p class="scores" style="color: #fff; text-align: center; font-size: x-large;">
+                  <span id="spiderman-score">0</span>
+               </p>
+            </div>
+         </div>
+         <div class="column" style="height: 10px;">
+            <h2 id="lose-message"></h2>
+         </div>
+         <div class="column">
+            <div style="margin: auto; text-align: center;">
+               <img src="./assets/images/greengoblin.png" alt="Green Goblin">
+               <h2 style="color: lime;" class="character-names">Green Goblin</h2>
+            </div>
+            <div class="score-area">
+               <p class="scores" style="color: lime; text-align: center; font-size: x-large;">
+                  <span id="green-goblin-score">0</span>
+               </p>
+            </div>
+         </div>
+      </div>
+      <script src="./assets/js/script.js"></script>
+   </body>
+</html>

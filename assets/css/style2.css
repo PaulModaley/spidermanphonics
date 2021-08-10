@@ -63,7 +63,7 @@ a:active {
 	font-weight: bold;
 }
 
-#btn {
+.btn {
 	margin: auto;
 	width: 50%;
 	text-align: center;
