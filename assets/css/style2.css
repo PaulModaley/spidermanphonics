@@ -95,7 +95,7 @@ button:active {
 }
 
 
-@media only screen and (min-width: 1980px) {
+@media only screen and (min-width: 3000px) {
 	#btn2 {
 		background-color: transparent;
 		color: red;
