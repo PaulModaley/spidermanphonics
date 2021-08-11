@@ -82,6 +82,8 @@ a:active {
 	color: red;
 	text-decoration: none;
 }
+
+/*smaller screens - change colour of 'back' button text*/
 @media only screen and (max-width: 1153px) {
 a,
 a:hover,
