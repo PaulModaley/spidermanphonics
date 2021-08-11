@@ -183,18 +183,3 @@ img {
 		width: 300px;
 	}
 }
-
-
-@media (orientation: landscape) {
-	#rotate {
-		display: none;
-	}
-	html {
-		background: url(../images/rotatedevice.png) no-repeat fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		overflow-x: hidden;
-	}
-}
