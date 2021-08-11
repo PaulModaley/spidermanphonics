@@ -37,7 +37,7 @@ body {
 	margin: auto;
 	padding: 10px;
 }
-
+/*button styling and animation*/
 button {
 	background-color: transparent;
 	color: red;
@@ -94,8 +94,6 @@ button:active {
 	}
 }
 
-
-/* MOBILE */
 
 @media only screen and (min-width: 1980px) {
 	#btn2 {
