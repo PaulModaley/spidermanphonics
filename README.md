@@ -163,6 +163,9 @@ To ensure mobile responsivity, I made extensive use of Google Developer Tool's '
 
 The validator indicated that there are no errors within my HTML and CSS.
 
+**JS Hint**
+
+JavaScript code was periodically checked for errors using JS Hint. 
 
 #### **Testing Process**
 
