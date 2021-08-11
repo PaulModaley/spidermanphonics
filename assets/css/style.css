@@ -137,6 +137,9 @@ img {
 /* MOBILE */
 
 @media only screen and (max-width: 400px) {
+	body {
+		font-size: 120%;
+	}
 	h2 {
 		font-size: 100%;
 	}
@@ -181,5 +184,11 @@ img {
 		object-fit: contain;
 		height: 270px;
 		width: 300px;
+	}
+	.instructions {
+		color: white;
+		font-size: 75%;
+		text-align: center;
+		padding-bottom: 50px;
 	}
 }

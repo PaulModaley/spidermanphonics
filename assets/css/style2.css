@@ -97,7 +97,7 @@ button:active {
 
 /* MOBILE */
 
-@media only screen and (max-width: 420px) {
+@media only screen and (min-width: 1980px) {
 	#btn2 {
 		background-color: transparent;
 		color: red;
