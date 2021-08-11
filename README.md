@@ -207,9 +207,7 @@ The game was tested thoroughly for mobile and web responsivity.
 
 [Back to top](#table-of-contents)
 
-Having established a clear vision for the project as illustrated through wireframes, the development cycle was fairly linear without a great deal of deviation from the original plan. 
-
-However, there were a few changes made during the development cycle which were not accounted for during the planning process.  The changes were made following discussions with other developers who offered constructive criticism of the site during its development. 
+During the planning phase, discussions with my mentor helped to shape various aspects of the project including:
 
 #### Form
 
@@ -217,11 +215,16 @@ However, there were a few changes made during the development cycle which were n
 
 #### Navigation
 
-- Following discussion with my mentor, I implemented a welcome page and feedback form page.
+- Following discussion with my mentor, I implemented a welcome page.
 
 #### Animations
 
 - To enhance the visual appearance, I added hover animations to buttons and icons.
+
+#### Game functions
+
+- Acting upon my mentor's advice, I decided that the game should have seperate buttons for answers and for playing sounds.
+
 <a name="deployment"></a>
 ## 6. Deployment
 
@@ -251,8 +254,6 @@ The site may be viewed via this link: https://paulmodaley.github.io/spidermanpho
 <a name="knownbugs"></a>
 
 [Back to top](#table-of-contents)
-
-
 
 ## 9. Credits
 <a name="credits"></a>
