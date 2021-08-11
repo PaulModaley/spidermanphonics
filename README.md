@@ -170,18 +170,41 @@ Generally, I followed a process of (1) writing the code for a specific feature, 
 
 The game was tested thoroughly for mobile and web responsivity.
 
-  - On smaller screens, game icons shrink to fit the screen size.
-  - Users may return to the welcome page via a link reading 'back'. This features makes it easy for the user to navigate to pages.
-  - The navigation works as expected on both mobile and web.
-- **Pages - Expectation: Pass**
-  - Each section of the page features consistent fonts, font sizes and colour schemes that are generally consistent with the Spider-Man brand and the'comic book' look and feel intended for the game,
-  - All sections display as expected on mobile and web.
-- **Game - Expectation: Pass**
-  - The game functions as intended.
-  - Audio is used as a key part of the game and also to enhance the user experience.
-  - All media functions correctly on mobile and web.
-- **Form - Expectation: Pass**
-  - The form functions correctly on mobile and web.
+### Home Page
+| Function | Description | Result:Mobile | Result:Desktop |
+| --- | --- | --- | --- |
+| Background image | Adds visual appeal. Mobile responsive. | Passed | Passed |
+| Game button | Links to game page that when clicked will redirect to game.html page | Passed | Passed |
+| Feedback link| Link to feedback form page that when clicked will redirect to feedback.html page | Passed | Passed |
+
+
+[Back to Table of Contents](#table-of-contents)
+
+### Game Page
+| Function | Description | Result:Mobile | Result:Desktop |
+| --- | --- | --- | --- |
+| Header link | Links back to landing page when clicked, on all pages | Passed | Passed |
+| Decision Display Boxes | Displays user selected move in left box matching button clicked in selection area. Simultaneously displays randomly generated move for computer in right box | Passed | Passed |
+| Outcome message text display | Displays the outcome of the round with specific messages targeted at each unique combination. Either, message + You Win! or message + You Lose! or It's a tie! | Passed | Passed |
+| Move choice buttons | Each button represents a possible move by way of an icon. The button expands on hover and when clicked displays the corresponding move and triggers a function to generate and display a random move for the computer | Passed | Passed |
+| Score Area | Both user and computer score start at 0. Each win will increase the respective winners score by 1. A tie round does not reflect on the score board. When either player reaches 5 wins a function is triggered to stop the game | Passed | Passed |
+| Game Result display | The display is hidden by default and triggered when either player reaches 5 wins. If the user has 5 wins a message stating You Win! will be displayed and You Lose! will be displayed if the computer reaches 5 wins. There is a play again button. | Passed | Passed |
+| Game Result display button | The button refreshes the game page when clicked allowing a new game to begin with the scores at 0. | Passed | Passed |
+| Facebook Icon | Redirects to Facebook in a new window when clicked, on all pages | Passed | Passed |
+| Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
+| Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
+
+[Back to Table of Contents](#table-of-contents)
+
+### Feedback Form Page
+| Function | Description | Result:Mobile | Result:Desktop |
+| --- | --- | --- | --- |
+| Header link | Links back to landing page when clicked, on all pages | Passed | Passed |
+| Feedback form | The form has sections for name, surname, email and feedback that are all required before the form can be submitted via the submit button at the bottom | Passed | Passed |
+| Facebook Icon | Redirects to Facebook in a new window when clicked, on all pages | Passed | Passed |
+| Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
+| Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
+
 <a name="development"></a>
 ## 5. Development Cycle
 
