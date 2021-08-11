@@ -245,7 +245,6 @@ I deployed my project through GitHub. The process was as follows:
 ![Form Screen](assets/images/formscreen.png)
 
 
-
 [Back to top](#table-of-contents)
 
 The site may be viewed via this link: https://paulmodaley.github.io/spidermanphonics/
@@ -262,8 +261,9 @@ The site may be viewed via this link: https://paulmodaley.github.io/spidermanpho
 - The JavaScript code to set a delay came from [Stack Overflow] https://stackoverflow.com/questions/24400845/refreshing-a-page-after-certain-delay-in-jquery
 - The Demo button animation came from [W3 Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
 - Fonts came from [Google Fonts](https://fonts.google.com/)
-- Icons in the footer came from [Font Awesome](https://fontawesome.com/)
+- Icons came from [Font Awesome](https://fontawesome.com/)
 - Code for hover effect on demo button came from [W3 Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
+- The 'spacer image' used as a placeholder came from [Spacer.gif] https://spacergif.org/
 
 #### Content
 
