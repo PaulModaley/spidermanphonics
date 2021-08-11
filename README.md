@@ -263,14 +263,14 @@ The site may be viewed via this link: https://paulmodaley.github.io/spidermanpho
 - Fonts came from [Google Fonts](https://fonts.google.com/)
 - Icons came from [Font Awesome](https://fontawesome.com/)
 - Code for hover effect on demo button came from [W3 Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
-- The 'spacer image' used as a placeholder came from [Spacer.gif] https://spacergif.org/
+- The 'spacer image' used as a placeholder came from [Spacer Gif](https://spacergif.org/) 
 
 #### Content
 
 - Character images came from Marvel Comic's Spider-Man.
 - Branding and colour scheme came from Marvel Comics.
-- Audio clip of 'web shoot' sound came from Sam Birkinshaw via [YouTube] https://www.youtube.com/watch?v=hlLUa1-1SUk
+- Audio clip of 'web shoot' sound came from Sam Birkinshaw via [YouTube] (https://www.youtube.com/watch?v=hlLUa1-1SUk)
 - I recorded the phoneme sounds.
-- Background images came from [WallPaperAccess] https://wallpaperaccess.com/spider-man
+- Background images came from [WallPaperAccess] (https://wallpaperaccess.com/spider-man)
 
 [Back to top](#table-of-contents)
