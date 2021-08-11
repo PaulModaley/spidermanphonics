@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to my first JavaScript project, Phonics with Spider-Man, an online, educational game intended to support young children starting to read to learn basic phonics (prescribed by the Read Write Inc. phonics scheme). It can be used by parents and teachers to engage beginner readers while young children may choose to access the game themselves once an adult has shown them how to do so.
+Welcome to my first JavaScript project, Phonics with Spider-Man, an online, educational game intended to support young children starting to read by learning basic phonics (prescribed by the Read Write Inc. phonics scheme). Parents and teachers may use the game to engage beginner readers while young children may choose to access the game themselves once an adult has shown them how to do so.
 
 The game, which is essentially a matching game whereby children match graphemes (letters) to phonemes (sounds), was designed around my 4-year old son's interests, namely superheroes and in particular the Spider-Man character. 
 
@@ -42,7 +42,7 @@ A live version of the website can be found [here ](https://paulmodaley.github.io
 
 [Back to top](#table-of-contents)
 
-This game was created to enhance children's experience of learning to read in the Early Years of school.
+This game was created to enhance children's experience of learning to read in the Early Years Foundation Stage (EYFS).
 
 <a name="strategy"></a>
 ### 1.1 Strategy
@@ -215,7 +215,7 @@ During the planning phase, discussions with my mentor helped to shape various as
 
 #### Navigation
 
-- Following discussion with my mentor, I implemented a welcome page.
+- Following discussion with my mentor, I designed and implemented a home/landing page.
 
 #### Animations
 
@@ -269,8 +269,8 @@ The site may be viewed via this link: https://paulmodaley.github.io/spidermanpho
 
 - Character images came from Marvel Comic's Spider-Man.
 - Branding and colour scheme came from Marvel Comics.
-- Audio clip of 'web shoot' sound came from Sam Birkinshaw via https://www.youtube.com/watch?v=hlLUa1-1SUk
+- Audio clip of 'web shoot' sound came from Sam Birkinshaw via [YouTube] https://www.youtube.com/watch?v=hlLUa1-1SUk
 - I recorded the phoneme sounds.
-- Background images came from [WallPaper Access] https://wallpaperaccess.com/spider-man
+- Background images came from [WallPaperAccess] https://wallpaperaccess.com/spider-man
 
 [Back to top](#table-of-contents)
