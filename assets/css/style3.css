@@ -20,11 +20,10 @@ body {
 #form {
 	background: rgba(1, 0, 0, 0.7);
 	margin: 0 auto;
-	width: 54vw;
+	width:70vw;
 	height: auto;
 	padding-left: 20px;
     letter-spacing: 3px;
-	
 }
 
 input {
@@ -83,3 +82,4 @@ a:active {
 	color: red;
 	text-decoration: none;
 }
+/*mobile view expand the transparent background*/
