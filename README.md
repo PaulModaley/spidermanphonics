@@ -144,7 +144,7 @@ Technologies employed in the creation of the website are as follows:
 - [Typora](https://typora.io/) (for creating this readme file)
 - [W3C Validator tools](https://validator.w3.org/) (for validating code and error checking)
 - [Am I Responsive?](http://ami.responsivedesign.is/) (for checking responsivity and screenshots of site functioning on different devices)
-[JSHint](https://jshint.com/) (for checking JavaScript code for errors)
+- [JSHint](https://jshint.com/) (for checking JavaScript code for errors)
 
 <a name="testing"></a>
 ### 4. Testing
@@ -177,7 +177,7 @@ The game was tested thoroughly for mobile and web responsivity.
 | Function | Description | Result:Mobile | Result:Desktop |
 | --- | --- | --- | --- |
 | Background image | Adds visual appeal.| Passed | Passed |
-| text with transparent background | Adds visual appeal and offers an introduction to the game.| Passed | Passed |
+| Text with Transparent Background | Adds visual appeal and offers an introduction to the game.| Passed | Passed |
 | Game button | Links to game page that when clicked will redirect to game.html page | Passed | Passed |
 | Feedback link| Link to feedback form page that when clicked will redirect to form.html page | Passed | Passed |
 
@@ -237,6 +237,9 @@ I deployed my project through GitHub. The process was as follows:
 
 **Screenshot of game operating on various devices**
 
+![Home Screen](/workspace/spidermanphonics/assets/images/homescreen.png)
+![Game Screen](/workspace/spidermanphonics/assets/images/gamescreen.png)
+![Form Screen](assets/images/formscreen.png)
 
 
 
