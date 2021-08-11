@@ -64,14 +64,14 @@ h2 {
 ul {
 	list-style: none;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
 li {
 	display: inline-block;
 	padding: 10px;
 	text-align: center;
-	font-size: 300%
+	font-size: 300%;
 }
 
 .zoom {
@@ -128,9 +128,9 @@ img {
 
 .instructions {
 	color: white;
-	font-size: medium;
+	font-size: 100%;
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 150px;
 }
 
 
@@ -138,10 +138,10 @@ img {
 
 @media only screen and (max-width: 400px) {
 	body {
-		font-size: 120%;
+		font-size: 100%;
 	}
 	h2 {
-		font-size: 100%;
+		font-size: 95%;
 	}
 	li {
 		display: inline-block;
@@ -189,6 +189,6 @@ img {
 		color: white;
 		font-size: 75%;
 		text-align: center;
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 	}
 }
