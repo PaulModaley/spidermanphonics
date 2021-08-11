@@ -237,8 +237,8 @@ I deployed my project through GitHub. The process was as follows:
 
 **Screenshot of game operating on various devices**
 
-![Home Screen](/workspace/spidermanphonics/assets/images/homescreen.png)
-![Game Screen](/workspace/spidermanphonics/assets/images/gamescreen.png)
+![Home Screen](assets/images/homescreen.png)
+![Game Screen](assets/images/gamescreen.png)
 ![Form Screen](assets/images/formscreen.png)
 
 
