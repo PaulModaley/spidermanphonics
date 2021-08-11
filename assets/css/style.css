@@ -64,14 +64,14 @@ h2 {
 ul {
 	list-style: none;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 li {
 	display: inline-block;
 	padding: 10px;
 	text-align: center;
-	font-size: 300%;
+	font-size: 300%
 }
 
 .zoom {
@@ -128,20 +128,17 @@ img {
 
 .instructions {
 	color: white;
-	font-size: 100%;
+	font-size: medium;
 	text-align: center;
-	padding-bottom: 150px;
+	padding-bottom: 50px;
 }
 
 
 /* MOBILE */
 
 @media only screen and (max-width: 400px) {
-	body {
-		font-size: 100%;
-	}
 	h2 {
-		font-size: 95%;
+		font-size: 100%;
 	}
 	li {
 		display: inline-block;
@@ -184,11 +181,5 @@ img {
 		object-fit: contain;
 		height: 270px;
 		width: 300px;
-	}
-	.instructions {
-		color: white;
-		font-size: 75%;
-		text-align: center;
-		padding-bottom: 30px;
 	}
 }
