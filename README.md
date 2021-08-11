@@ -173,9 +173,10 @@ The game was tested thoroughly for mobile and web responsivity.
 ### Home Page
 | Function | Description | Result:Mobile | Result:Desktop |
 | --- | --- | --- | --- |
-| Background image | Adds visual appeal. Mobile responsive. | Passed | Passed |
+| Background image | Adds visual appeal.| Passed | Passed |
+| text with transparent background | Adds visual appeal and offers an introduction to the game.| Passed | Passed |
 | Game button | Links to game page that when clicked will redirect to game.html page | Passed | Passed |
-| Feedback link| Link to feedback form page that when clicked will redirect to feedback.html page | Passed | Passed |
+| Feedback link| Link to feedback form page that when clicked will redirect to form.html page | Passed | Passed |
 
 
 [Back to Table of Contents](#table-of-contents)
@@ -183,27 +184,20 @@ The game was tested thoroughly for mobile and web responsivity.
 ### Game Page
 | Function | Description | Result:Mobile | Result:Desktop |
 | --- | --- | --- | --- |
-| Header link | Links back to landing page when clicked, on all pages | Passed | Passed |
-| Decision Display Boxes | Displays user selected move in left box matching button clicked in selection area. Simultaneously displays randomly generated move for computer in right box | Passed | Passed |
-| Outcome message text display | Displays the outcome of the round with specific messages targeted at each unique combination. Either, message + You Win! or message + You Lose! or It's a tie! | Passed | Passed |
-| Move choice buttons | Each button represents a possible move by way of an icon. The button expands on hover and when clicked displays the corresponding move and triggers a function to generate and display a random move for the computer | Passed | Passed |
-| Score Area | Both user and computer score start at 0. Each win will increase the respective winners score by 1. A tie round does not reflect on the score board. When either player reaches 5 wins a function is triggered to stop the game | Passed | Passed |
-| Game Result display | The display is hidden by default and triggered when either player reaches 5 wins. If the user has 5 wins a message stating You Win! will be displayed and You Lose! will be displayed if the computer reaches 5 wins. There is a play again button. | Passed | Passed |
-| Game Result display button | The button refreshes the game page when clicked allowing a new game to begin with the scores at 0. | Passed | Passed |
-| Facebook Icon | Redirects to Facebook in a new window when clicked, on all pages | Passed | Passed |
-| Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
-| Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
+| Letter display | Displays a letter/grapheme at random when the user clicks on the image. | Passed | Passed |
+| Sound icons | Plays a phoneme sound when the user hovers over an icon. | Passed | Passed |
+| Select buttons | Each button corresponds with an sound icons. The button expands on hover and when clicked indicates the user's selection by triggering a function to validate the answer against the letter displayed. Clicking to select an answer also triggers a sound effect. | Passed | Passed |
+| Score Area | Both user and computer score start at 0. A correct answer increments Spider-Man's (user) score by 1 while an incorrect answers increment's Green Goblin's (computer) score. A tie round does not reflect on the score board. | Passed | Passed |
+| Game Result display | When either player, human or computer, reaches 10 wins a function is triggered to indicate who won and then the page is reloaded and the scores return to 0. | Passed | Passed |
+| Back button |Text at the top left of the screen acts as a back button to return the user to the home page.  | Passed | Passed |
 
 [Back to Table of Contents](#table-of-contents)
 
 ### Feedback Form Page
 | Function | Description | Result:Mobile | Result:Desktop |
 | --- | --- | --- | --- |
-| Header link | Links back to landing page when clicked, on all pages | Passed | Passed |
-| Feedback form | The form has sections for name, surname, email and feedback that are all required before the form can be submitted via the submit button at the bottom | Passed | Passed |
-| Facebook Icon | Redirects to Facebook in a new window when clicked, on all pages | Passed | Passed |
-| Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
-| Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
+| Back button | Text at the top left of the screen acts as a back button to return the user to the home page. | Passed | Passed |
+| Feedback form | The form has sections for first name, surname, email, telephone number, organisation and feedback.  All fields are required before the form can be submitted via the submit button below the form. | Passed | Passed |
 
 <a name="development"></a>
 ## 5. Development Cycle
