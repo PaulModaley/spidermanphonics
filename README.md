@@ -263,7 +263,8 @@ The site may be viewed via this link: https://paulmodaley.github.io/spidermanpho
 - Fonts came from [Google Fonts](https://fonts.google.com/)
 - Icons came from [Font Awesome](https://fontawesome.com/)
 - Code for hover effect on demo button came from [W3 Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
-- The 'spacer image' used as a placeholder came from [Spacer Gif](https://spacergif.org/) 
+- The 'spacer image' used as a placeholder came from [Spacer Gif](https://spacergif.org/)
+- Code for game screen's landscape mode media query came from [Stack Overflow](https://stackoverflow.com/questions/17972625/how-can-i-prompt-user-to-rotate-device-if-in-a-certain-mode-landscape-or-portrai)
 
 #### Content
 
