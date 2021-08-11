@@ -269,8 +269,8 @@ The site may be viewed via this link: https://paulmodaley.github.io/spidermanpho
 
 - Character images came from Marvel Comic's Spider-Man.
 - Branding and colour scheme came from Marvel Comics.
-- Audio clip of 'web shoot' sound came from Sam Birkinshaw via [YouTube] (https://www.youtube.com/watch?v=hlLUa1-1SUk)
+- Audio clip of 'web shoot' sound came from Sam Birkinshaw via [YouTube](https://www.youtube.com/watch?v=hlLUa1-1SUk)
 - I recorded the phoneme sounds.
-- Background images came from [WallPaperAccess] (https://wallpaperaccess.com/spider-man)
+- Background images came from [WallPaperAccess](https://wallpaperaccess.com/spider-man)
 
 [Back to top](#table-of-contents)
