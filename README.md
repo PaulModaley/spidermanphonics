@@ -4,7 +4,7 @@
 
 Welcome to my first JavaScript project, Phonics with Spider-Man, an online, educational game intended to support young children starting to read by learning basic phonics (prescribed by the Read Write Inc. phonics scheme). Parents and teachers may use the game to engage beginner readers while young children may choose to access the game themselves once an adult has shown them how to do so.
 
-The game, which is essentially a matching game whereby children match graphemes (letters) to phonemes (sounds), was designed around my 4-year old son's interests, namely superheroes and in particular the Spider-Man character. 
+The game, which is essentially a matching game where children match graphemes (letters) to phonemes (sounds), was designed around my 4-year old son's interests, namely superheroes and in particular the Spider-Man character. 
 
 A live version of the website can be found [here ](https://paulmodaley.github.io/spidermanphonics/).
 
@@ -42,7 +42,7 @@ A live version of the website can be found [here ](https://paulmodaley.github.io
 
 [Back to top](#table-of-contents)
 
-This game was created to enhance children's experience of learning to read in the Early Years Foundation Stage (EYFS).
+This game was created to enhance young children's experience of learning to read in the Early Years Foundation Stage (EYFS).
 
 <a name="strategy"></a>
 ### 1.1 Strategy
@@ -71,13 +71,14 @@ The content must:
 <a name="structure"></a>
 #### Structure
 
-The game will feature a distinctive Spider-Man theme intended to enagage children who are fans of the movie franchise and/or animated series. 
+The game will feature a distinctive Spider-Man theme to enagage children who are fans of the movie franchise and/or animated series. 
 
 It is crucial that the game is:
 
 - Responsive on all devices sizes.
 - Play sound and basic animations.
 - Easy to play. 
+- Aligns with early learning goals.
 
 <a name="skeleton"></a>
 #### Skeleton
@@ -165,7 +166,7 @@ The validator indicated that there are no errors within my HTML and CSS.
 
 **JS Hint**
 
-JavaScript code was periodically checked for errors using JS Hint. 
+JavaScript code was periodically checked for errors using JS Hint. No errors were detected.
 
 #### **Testing Process**
 
@@ -215,11 +216,11 @@ During the planning phase, discussions with my mentor helped to shape various as
 
 #### Navigation
 
-- Following discussion with my mentor, I designed and implemented a home/landing page.
+- Following discussion with my mentor, I designed and implemented a home/landing page to enhance the user's experience. 
 
 #### Animations
 
-- To enhance the visual appearance, I added hover animations to buttons and icons.
+- To enhance the visual appearance and user experience, I added hover animations to buttons and icons.
 
 #### Game functions
 
@@ -251,8 +252,8 @@ The site may be viewed via this link: https://paulmodaley.github.io/spidermanpho
 
 ## 8. Known Bugs
 <a name="knownbugs"></a>
-- Mobile landscape view: Overflow hidden on landscape mode prevented full game screen from being visible. Removed 'overflow hidden' to enable scrolling in landscape mode. Issue now resolved.
-- Answer validation: Answer validation did not function correctly with initial efforts to implement a JS function to validate user answers. Issue was resolved by slicing the file URL of the images. Issue now resolved.
+- Mobile landscape view: Overflow hidden on landscape mode prevented full game screen from being visible. To resolve this, I removed 'overflow hidden' to enable scrolling in landscape mode. 
+- Answer validation: Answer validation did not function correctly with initial efforts to implement a JS function to validate user answers. Issue was resolved by slicing the file URL of the images. 
 
 [Back to top](#table-of-contents)
 
