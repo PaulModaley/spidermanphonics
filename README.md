@@ -251,6 +251,10 @@ The site may be viewed via this link: https://paulmodaley.github.io/spidermanpho
 
 ## 8. Known Bugs
 <a name="knownbugs"></a>
+| Function | Description | Status |
+| --- | --- | --- | --- |
+| Mobile landscape view | Overflow hidden on landscape mode prevented full game screen from being visible. Removed 'overflow hidden' to enable scrolling in landscape mode. | Resolved | 
+| Answer validation | Answer validation did not function correctly with initial efforts to implement a JS function. Issue was resolved by slicing the file URL of the images.| Resolved| 
 
 [Back to top](#table-of-contents)
 
